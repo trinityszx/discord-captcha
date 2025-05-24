@@ -19,8 +19,8 @@ Este projeto implementa um sistema de verificação por **Captcha** para bots de
 ## 📦 Instalação
 
 ```bash
-git clone https://github.com/seuusuario/sistema-captcha-discord.git
-cd sistema-captcha-discord
+git clone https://github.com/trinityszx/discord-captcha
+cd discord-captcha
 npm install
 ```
 
@@ -28,8 +28,10 @@ npm install
 
 Crie um arquivo `.env` com seu token do bot:
 
-```env
+```env 
 DISCORD_TOKEN=seu_token_aqui
+CLIENT_ID= Client ID do BOT
+DISCORD_GUILD_ID= ID do Servidor
 ```
 
 ## 🧠 Como funciona
